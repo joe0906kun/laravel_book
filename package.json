@@ -3,6 +3,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build && vite build --ssr",
+        "production": "vite build --mode production",
         "heroku-postbuild": "npm run production"
     },
     "devDependencies": {
